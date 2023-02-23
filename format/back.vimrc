@@ -12,3 +12,5 @@ filetype indent on
 
 " Turn syntax highlighting on.
 syntax on
+
+set timeoutlen=400
