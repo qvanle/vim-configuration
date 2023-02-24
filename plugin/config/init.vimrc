@@ -6,3 +6,6 @@ if filereadable(expand("~/.vim/plugin/config/nerdtree.vimrc"))
     source ~/.vim/plugin/config/nerdtree.vimrc
 endif
 
+if filereadable(expand("~/.vim/plugin/config/vim-airline.vimrc"))
+	source ~/.vim/plugin/config/vim-airline.vimrc
+endif
