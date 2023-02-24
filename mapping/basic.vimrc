@@ -12,3 +12,8 @@ inoremap <M-l> <Right>
 
 let mapleader=" "
 nnoremap <leader>h :noh<CR>:echo "Searching have been unhighlight"<CR>
+
+inoremap <C-s> <C-o>:wa!<CR><C-o>:echo "saved"<CR>
+nnoremap <C-s> :wa!<CR>:echo "saved"<CR>
+
+
