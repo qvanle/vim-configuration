@@ -15,6 +15,8 @@ syntax on
 
 set timeoutlen=400
 
+set ttimeoutlen=50
+
 " Enable Omnicomplete features
 set omnifunc=syntaxcomplete#Complete
 
