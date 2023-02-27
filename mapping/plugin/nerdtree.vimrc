@@ -1,2 +1,2 @@
-imap <C-f> <esc>:NERDTreeToggle<CR>
-nmap <C-f> :NERDTreeToggle<CR>
+imap <silent> <C-f> <esc>:NERDTreeToggle<CR>
+nmap <silent> <C-f> :NERDTreeToggle<CR>

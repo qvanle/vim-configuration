@@ -19,6 +19,8 @@ set shiftwidth=4
 " Set tab width to 4 columns.
 set tabstop=4
 
+set expandtab
+
 " Do not save backup files.
 set nobackup
 
