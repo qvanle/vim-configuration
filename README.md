@@ -19,3 +19,8 @@ if filereadable(expand("~/.vim/plugged/init.vimrc"))
     source ~/.vim/plugged/init.vimrc
 endif 
 ```
+4. after that open vim and run command
+```
+:PlugInstall
+```
+
