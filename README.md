@@ -19,8 +19,8 @@ if filereadable(expand("~/.vim/mapping/init.vimrc"))
 endif
 
 " add plugin 
-if filereadable(expand("~/.vim/plugged/init.vimrc"))
-    source ~/.vim/plugged/init.vimrc
+if filereadable(expand("~/.vim/plugin/init.vimrc"))
+    source ~/.vim/plugin/init.vimrc
 endif 
 ```
 4. after that open vim and run command
@@ -38,3 +38,6 @@ endif
 ### junegunn/fzf
 ### junegunn/fzf.vim
 ## key binding
+### basic
+### plugin: nerdtree
+### plugin: fzf
