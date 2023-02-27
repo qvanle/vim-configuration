@@ -9,18 +9,18 @@
 3. create a empty file ".vimrc" and paste this script into that:
 ```
 " coding style
-if filereadable(expand("~/.vim/format/init.vimrc"))
-    source ~/.vim/format/init.vimrc
+if filereadable(expand("$HOME/.vim/format/init.vimrc"))
+    source $HOME/.vim/format/init.vimrc
 endif
 
 " key binding
-if filereadable(expand("~/.vim/mapping/init.vimrc"))
-    source ~/.vim/mapping/init.vimrc 
+if filereadable(expand("$HOME/.vim/mapping/init.vimrc"))
+    source $HOME/.vim/mapping/init.vimrc 
 endif
 
 " add plugin 
-if filereadable(expand("~/.vim/plugin/init.vimrc"))
-    source ~/.vim/plugin/init.vimrc
+if filereadable(expand("$HOME/.vim/plugin/init.vimrc"))
+    source $HOME/.vim/plugin/init.vimrc
 endif 
 ```
 4. after that open vim and run commands
