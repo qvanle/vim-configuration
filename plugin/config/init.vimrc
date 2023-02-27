@@ -9,3 +9,7 @@ endif
 if filereadable(expand("~/.vim/plugin/config/vim-airline.vimrc"))
 	source ~/.vim/plugin/config/vim-airline.vimrc
 endif
+
+if filereadable(expand("~/.vim/plugin/config/YCM.vimrc"))
+	source ~/.vim/plugin/config/YCM.vimrc
+endif

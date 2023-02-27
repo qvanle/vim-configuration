@@ -14,3 +14,9 @@ filetype indent on
 syntax on
 
 set timeoutlen=400
+
+" Enable Omnicomplete features
+set omnifunc=syntaxcomplete#Complete
+
+set encoding=utf-8
+
