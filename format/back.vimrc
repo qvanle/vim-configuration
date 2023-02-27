@@ -22,3 +22,9 @@ set omnifunc=syntaxcomplete#Complete
 
 set encoding=utf-8
 
+set nobackup
+set nowritebackup
+
+set signcolumn=yes
+
+set termguicolors
