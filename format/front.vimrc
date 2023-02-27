@@ -21,6 +21,7 @@ set tabstop=4
 
 set expandtab
 
+set autoindent
 " Do not save backup files.
 set nobackup
 
