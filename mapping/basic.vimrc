@@ -13,7 +13,13 @@ inoremap <M-l> <Right>
 let mapleader=" "
 nnoremap <leader>h :noh<CR>:echo "Searching have been unhighlight"<CR>
 
+"save files
 inoremap <C-s> <C-o>:wa!<CR><C-o>:echo "saved"<CR>
 nnoremap <C-s> :wa!<CR>:echo "saved"<CR>
 
+"exit vim in insert mode
+execute "set <M-Z>=\eZ"
+inoremap <M-Z><M-Z> <C-o>ZZ
+"exit vim in visual mode
+vnoremap ZZ <Esc>ZZ
 
