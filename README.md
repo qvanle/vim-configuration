@@ -32,6 +32,8 @@ endif
 > colorscheme
 #### preservim/nerdtree
 > file explorer
+#### Xuyuanp/nerdtree-git-plugin
+> showing git status flags
 #### ryanoasis/vim-devicons
 > file type icons
 #### airblade/vim-gitgutter
