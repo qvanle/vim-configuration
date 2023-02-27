@@ -28,15 +28,15 @@ endif
 :PlugInstall
 ```
 ## plugin
-### morhetz/gruvbox
-### preservim/nerdtree
-### ryanoasis/vim-devicons
-### airblade/vim-gitgutter
-### vim-airline/vim-airline
-### vim-airline/vim-airline-themes
-### ycm-core/YouCompleteMe
-### junegunn/fzf
-### junegunn/fzf.vim
+#### morhetz/gruvbox
+#### preservim/nerdtree
+#### ryanoasis/vim-devicons
+#### airblade/vim-gitgutter
+#### vim-airline/vim-airline
+#### vim-airline/vim-airline-themes
+#### ycm-core/YouCompleteMe
+#### junegunn/fzf
+#### junegunn/fzf.vim
 ## key binding
 ### basic
 ### plugin: nerdtree
