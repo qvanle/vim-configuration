@@ -2,6 +2,7 @@
 ## REQUIRE
 1. vim 8.2.0+
 2. https://github.com/ycm-core/YouCompleteMe
+3. install https://github.com/junegunn/fzf
 ## INSTALL
 1. create a hidden folder ".vim" in home directory (aka ".vim")
 2. download the repository and paste into .vim 

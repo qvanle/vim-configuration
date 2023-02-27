@@ -13,3 +13,7 @@ endif
 if filereadable(expand("~/.vim/plugin/config/YCM.vimrc"))
 	source ~/.vim/plugin/config/YCM.vimrc
 endif
+
+if filereadable(expand("~/.vim/plugin/config/fzf.vimrc"))
+	source ~/.vim/plugin/config/fzf.vimrc
+endif
