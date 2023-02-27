@@ -29,14 +29,23 @@ endif
 ```
 ## plugin
 #### morhetz/gruvbox
+> colorscheme
 #### preservim/nerdtree
+> file explorer
 #### ryanoasis/vim-devicons
+> file type icons
 #### airblade/vim-gitgutter
+> git command history
 #### vim-airline/vim-airline
+> statusline
 #### vim-airline/vim-airline-themes
+> more statusline
 #### ycm-core/YouCompleteMe
+> autocomplete
 #### junegunn/fzf
+> fuzzy finder
 #### junegunn/fzf.vim
+> fuzzy finder for vim
 ## key binding
 ### basic
 ### plugin: nerdtree
