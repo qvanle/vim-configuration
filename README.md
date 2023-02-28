@@ -3,6 +3,7 @@
 1. vim 8.2.0+
 2. https://github.com/neoclide/coc.nvim
 3. https://github.com/junegunn/fzf
+4. plug 
 ## INSTALL
 1. create a hidden folder ".vim" in home directory 
 2. download the repository and paste into .vim 
