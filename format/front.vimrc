@@ -1,3 +1,7 @@
+"set english to default language
+set langmenu=en_US
+set $LANG = 'en_US'
+
 "show line numbers
 set number
 
