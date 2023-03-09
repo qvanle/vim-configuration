@@ -23,3 +23,7 @@ inoremap <M-Z><M-Z> <C-o>ZZ
 "exit vim in visual mode
 vnoremap ZZ <Esc>ZZ
 
+"run makefile
+inoremap <C-b> <esc>:!make<CR>
+nnoremap <C-b> :!make<CR>
+
