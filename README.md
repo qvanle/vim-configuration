@@ -5,8 +5,8 @@
 3. https://github.com/junegunn/fzf
 4. plug 
 ## INSTALL
-1. Download this repository and extract.
-2. Go to $HOME (on linux just "cd ~" on window go to your user folder)
+1. Create a folder and download this repository and extract.
+2. Go to $HOME (on linux just "cd ~", on window go to your user folder)
 3. create a empty file (".vimrc" on linux, "_vimrc" on window) and paste this script into that:
 ```
 let g:CONFIG_FOLDER = '$HOME/.vim'
@@ -29,7 +29,8 @@ if filereadable(expand(g:CONFIG_PLUGIN))
 endif
 
 ```
-4. after that open vim and run commands
+4. set g:CONFIG_FOLDER to the directory of repository
+5. after that open vim and run commands
 ```
 :PlugInstall
 ```
