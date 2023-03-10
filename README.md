@@ -40,7 +40,7 @@ endif
 #### preservim/nerdtree
 > file explorer
 #### Xuyuanp/nerdtree-git-plugin
-> showing git status flags
+> nerdtree plugin
 #### ryanoasis/vim-devicons
 > file type icons
 #### airblade/vim-gitgutter
@@ -48,9 +48,7 @@ endif
 #### vim-airline/vim-airline
 > statusline
 #### vim-airline/vim-airline-themes
-> more statusline
-#### ycm-core/YouCompleteMe
-> autocomplete
+> more statusline themes
 #### junegunn/fzf
 > fuzzy finder
 #### junegunn/fzf.vim
