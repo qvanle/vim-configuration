@@ -5,24 +5,29 @@
 3. https://github.com/junegunn/fzf
 4. plug 
 ## INSTALL
-1. create a hidden folder ".vim" in home directory 
-2. download the repository and paste into .vim 
-3. create a empty file ".vimrc" and paste this script into that:
+1. Download this repository and extract.
+2. Go to $HOME (on linux just "cd ~" on window go to your user folder)
+3. create a empty file (".vimrc" on linux, "_vimrc" on window) and paste this script into that:
 ```
+let g:CONFIG_FOLDER = '$HOME/.vim'
+let g:CONFIG_FORMAT = g:CONFIG_FOLDER . "/format/init.vimrc"
+let g:CONFIG_MAPPING = g:CONFIG_FOLDER . "/mapping/init.vimr
+let g:CONFIG_PLUGIN = g:CONFIG_FOLDER . "/plugin/init.vimrc"
 " coding style
-if filereadable(expand("$HOME/.vim/format/init.vimrc"))
-    source $HOME/.vim/format/init.vimrc
+if filereadable(expand(g:CONFIG_FORMAT))
+    exec "source " . g:CONFIG_FORMAT
 endif
 
 " key binding
-if filereadable(expand("$HOME/.vim/mapping/init.vimrc"))
-    source $HOME/.vim/mapping/init.vimrc 
+if filereadable(expand(g:CONFIG_MAPPING))
+    exec "source " . g:CONFIG_MAPPING
 endif
 
-" add plugin 
-if filereadable(expand("$HOME/.vim/plugin/init.vimrc"))
-    source $HOME/.vim/plugin/init.vimrc
-endif 
+" add plugin
+if filereadable(expand(g:CONFIG_PLUGIN))
+    exec "source " . g:CONFIG_PLUGIN
+endif
+
 ```
 4. after that open vim and run commands
 ```
