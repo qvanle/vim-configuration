@@ -1,15 +1,20 @@
-if filereadable(expand("$HOME/.vim/plugin/config/gruvbox.vimrc"))
-    source $HOME/.vim/plugin/config/gruvbox.vimrc
+let g:CONFIG_PLUGINS_CONFIG_GRUVBOX = g:CONFIG_FOLDER . "/plugin/config/gruvbox.vimrc"
+let g:CONFIG_PLUGINS_CONFIG_NERDTREE = g:CONFIG_FOLDER . "/plugin/config/nerdtree.vimrc"
+let g:CONFIG_PLUGINS_CONFIG_VIMARILINE = g:CONFIG_FOLDER . "/plugin/config/vim-airline.vimrc"
+let g:CONFIG_PLUGINS_CONFIG_FZF = g:CONFIG_FOLDER . "/plugin/config/fzf.vimrc"
+
+if filereadable(expand(g:CONFIG_PLUGINS_CONFIG_GRUVBOX))
+    exec "source " . g:CONFIG_PLUGINS_CONFIG_GRUVBOX
 endif
 
-if filereadable(expand("$HOME/.vim/plugin/config/nerdtree.vimrc"))
-    source $HOME/.vim/plugin/config/nerdtree.vimrc
+if filereadable(expand(g:CONFIG_PLUGINS_CONFIG_NERDTREE))
+    exec "source " . g:CONFIG_PLUGINS_CONFIG_NERDTREE
 endif
 
-if filereadable(expand("$HOME/.vim/plugin/config/vim-airline.vimrc"))
-	source $HOME/.vim/plugin/config/vim-airline.vimrc
+if filereadable(expand(g:CONFIG_PLUGINS_CONFIG_VIMARILINE))
+    exec "source " . g:CONFIG_PLUGINS_CONFIG_VIMARILINE
 endif
 
-if filereadable(expand("$HOME/.vim/plugin/config/fzf.vimrc"))
-	source $HOME/.vim/plugin/config/fzf.vimrc
+if filereadable(expand(g:CONFIG_PLUGINS_CONFIG_FZF))
+    exec "source " . g:CONFIG_PLUGINS_CONFIG_FZF
 endif

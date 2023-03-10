@@ -1,11 +1,15 @@
-if filereadable(expand("$HOME/.vim/mapping/plugin/nerdtree.vimrc"))
-    source $HOME/.vim/mapping/plugin/nerdtree.vimrc
+let g:CONFIG_MAPPING_PLUGIN_NERDTREE = g:CONFIG_FOLDER . "/mapping/plugin/nerdtree.vimrc"
+let g:CONFIG_MAPPING_PLUGIN_FZF = g:CONFIG_FOLDER . "/mapping/plugin/fzf.vimrc"
+let g:CONFIG_MAPPING_PLUGIN_COC = g:CONFIG_FOLDER . "/mapping/plugin/coc.vimrc"
+
+if filereadable(expand(g:CONFIG_MAPPING_PLUGIN_NERDTREE))
+    exec "source " . g:CONFIG_MAPPING_PLUGIN_NERDTREE
 endif
 
-if filereadable(expand("$HOME/.vim/mapping/plugin/fzf.vimrc"))
-	source $HOME/.vim/mapping/plugin/fzf.vimrc
+if filereadable(expand(g:CONFIG_MAPPING_PLUGIN_FZF))
+	exec "source " . g:CONFIG_MAPPING_PLUGIN_FZF
 endif
 
-if filereadable(expand("$HOME/.vim/mapping/plugin/coc.vimrc"))
-    source $HOME/.vim/mapping/plugin/coc.vimrc
+if filereadable(expand(g:CONFIG_MAPPING_PLUGIN_COC))
+    exec "source " .g:CONFIG_MAPPING_PLUGIN_COC 
 endif
